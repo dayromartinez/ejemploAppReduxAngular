@@ -1,0 +1,4 @@
+<ul class="todo-list">
+  <app-todo-item *ngFor="let toDo of toDos | filtroToDo:filtroActual"
+                  [toDo]="toDo"></app-todo-item>
+</ul>
